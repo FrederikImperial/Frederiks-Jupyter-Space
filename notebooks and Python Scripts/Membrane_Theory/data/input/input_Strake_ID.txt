@@ -1,0 +1,2 @@
+Strake_ID_input = 107
+thickness_input = 17.549999237060547
