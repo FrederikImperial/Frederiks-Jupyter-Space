@@ -1,2 +1,2 @@
-Strake_ID_input = 107
-thickness_input = 17.549999237060547
+Strake_ID_input = 115
+thickness_input = 18.276561737060547

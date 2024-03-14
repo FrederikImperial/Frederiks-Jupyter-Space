@@ -1,0 +1,31 @@
+Technique: DownhillSimplex
+Technique Options:
+	Initial Simplex Size: 0.1
+	Max Iterations: 40
+	Simplex Count: 1
+	Max Failed Runs: 5
+	Failed Run Penalty Value: 1.0E30
+	Failed Run Objective Value: 1.0E30
+Execution Options:
+	TERMINATE_BY_RUNS: -1
+	TERMINATE_BY_THE_CLOCK_TIME: -1
+	PARAM_TERMINATION_CONSECUTIVE_RUNS: 1
+	execute subflow once: false
+	import at runtime: false
+	TERMINATE_BY_FEASIBILITY: -1
+	TERMINATE_BY_PARAMETERS: false
+	parallel: false
+	Use automatic scaling: false
+	TERMINATE_BY_ELAPSED_TIME: -1
+	ELAPSED_TIME_UNITS: 0
+	Restore best design: false
+	PARAM_TERMINATION_SKIP_RUNS: 0
+	PARAM_TERMINATION_ALL: false
+	Re-execute optimum point: false
+Design Parameters:
+	Design Variables:
+		Name	"Scale Factor"	"Lower Bound"	"Upper Bound"
+		thickness_t	1.0	10.0	25.0
+	Objectives:
+		Name	Direction	Target	"Scale Factor"	"Weight Factor"
+		Utilization	target	1.0	1.0	1.0

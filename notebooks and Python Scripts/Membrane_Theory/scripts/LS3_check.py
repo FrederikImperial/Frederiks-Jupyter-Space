@@ -195,7 +195,7 @@ sigma_x_Rd_t = sigma_x_Rd * t
 Utilization_output = -min_N_z /sigma_x_Rd_t
 
 # Runden auf 2 Nachkommastellen
-Utilization_output= round(Utilization_output, 2)
+# Utilization_output= round(Utilization_output, 2)
 
 
 print("Plastic range factor (beta_x):", beta_x)
